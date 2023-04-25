@@ -1,0 +1,85 @@
+/* Chat container styles*/
+.chat-container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F8F8F8;
+    box-shadow: 0 0 5px #002344;
+    font-family: Georgia, serif;
+}
+
+.chat-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Style the logo container */
+.logo {
+    align-items: center;
+}
+
+.logo img {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.logo h2 {
+    font-size: 500 px;
+    margin-left: 600 px;
+    color: #002344;
+    font-style: normal;
+    font-family: Georgia, serif;
+}
+
+.chat-window {
+    height: 300px;
+    overflow-y: scroll;
+    padding: 10px;
+    background-color: #FFFFFF;
+    border: 1px solid #E0E0E0;
+}
+
+.message {
+    margin-bottom: 10px;
+}
+
+.message.sent {
+    text-align: right;
+}
+
+.message.received {
+    text-align: left;
+}
+
+.message .content {
+    padding: 10px;
+    background-color: #002344;
+    color: #FFFFFF;
+    border-radius: 5px;
+    display: inline-block;
+    max-width: 80%;
+}
+
+.chat-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+#message-input {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#send-button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f98f06;
+    color: #000000;
+    cursor: pointer;
+    margin-left: 10px;
+    font-family: Georgia, serif;
+}
