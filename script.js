@@ -1,3 +1,5 @@
+/* Copyright (c) 2023 Jiveshwari Chinchghare */
+
 document.getElementById("send-button").addEventListener("click", function() {
     sendMessage();
 });
@@ -36,6 +38,6 @@ function sendMessage() {
 
             // Scroll to the bottom of the chat window
             messageList.scrollTop = messageList.scrollHeight;
-        }, 500); // Delay in milliseconds for simulating received message
+        }, 300); // Delay in milliseconds for simulating received message
     }
 }
